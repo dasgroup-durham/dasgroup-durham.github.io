@@ -468,7 +468,7 @@ nav {
 /* ─── Footer ─────────────────────────────────────────────── */
 footer {
   margin-top: 80px;
-  background: #111111;
+  background: #68246D;
   color: #888;
   padding: 36px 0;
 }
@@ -482,9 +482,9 @@ footer {
   flex-wrap: wrap;
   gap: 14px;
 }
-.footer-copy { font-size: .82rem; }
+.footer-copy { font-size: .92rem; }
 .footer-links { display: flex; gap: 18px; }
-.footer-links a { font-size: .82rem; color: #888; }
+.footer-links a { font-size: .92rem; color: #888; }
 .footer-links a:hover { color: #ddd; }
 
 /* ─── Responsive ─────────────────────────────────────────── */
