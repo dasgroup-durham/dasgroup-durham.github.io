@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Das Group | People</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GLLT62PN7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GLLT62PN7Q');
+</script>
+  
+<body>
+
+  <!-- ═══ NAVIGATION ════════════════════════════════════════ -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Das Group</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html" class="active">People</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE CONTENT ══════════════════════════════════════ -->
+  <div class="wrap">
+
+    <div class="page-header">
+      <h1>People</h1>
+    </div>
+
+    <!-- REPLACE: recruiting message (remove if not yet a PI) -->
+    <p class="people-intro">
+      We are actively recruiting postdoctoral researchers, doctoral students, and Bachelors' and Masters' students.
+      We welcome motivated and talented applicants with backgrounds in statistical physics, biophysics or theoretical chemistry,
+      particularly with experience or interest in coarse-grained theories and computer simulations of complex systems.
+      Please see the <a href="contact.html">Contact</a> page to get in touch.
+    </p>
+
+    <!-- ── PI card ────────────────────────────────────────── -->
+    <div class="person-card">
+      <div class="person-photo">
+        <!-- REPLACE: add your photo at assets/img/photo.jpg and
+             uncomment the <img> tag; delete the placeholder div -->
+         <img src="assets/img/photo1.jpg" alt="Avishek Das"> 
+      </div>
+      <div class="person-info">
+        <!-- REPLACE: your name -->
+        <h2>Avishek Das</h2>
+        <!-- REPLACE: your role and institution -->
+        <p class="person-role">Assistant Professor in Condensed Matter Physics &middot; Durham University</p>
+
+        <!-- REPLACE: your CV highlights (education, positions) -->
+        <ul class="cv-list">
+          <li>Postdoc, Biochemical Networks group, AMOLF, 2022-2026</li>
+          <li>Ph.D., University of California Berkeley, 2017-2022</li>
+          <li>B.Sc.(Research), Indian Institute of Science Bangalore, 2013-2017</li>
+        </ul>
+
+        <!-- REPLACE: short bio (2–4 sentences) -->
+        <p class="person-bio">
+          During postdoctoral research, Avishek explored how chemotactic bacteria can optimally act on the information that they gather 
+          from their environment. 
+          He developed the first computational algorithm TE-PWS to exactly quantify the directional information transmission in any 
+          stochastic dynamical model. 
+          With TE-PWS and theory, he discovered general design principles for how stochastic navigators can use information as a currency.
+          </p>
+
+        <p class="person-bio">
+          During his Ph.D., Avishek designed a new numerical paradigm called VPS for simulating and designing nonequilibrium 
+          fluctuations in soft matter. His research synthesized tools from molecular dynamics simulations, large deviation theory, 
+          stochastic thermodynamics, and reinforcement learning. With this paradigm, he developed efficient computational algorithms to sample 
+          rare fluctuations, infer reaction rate constants in nonequilibrium, and design self-assembly for expressing <em>living</em> dynamics. 
+          </p>
+
+        <p class="person-bio">
+          Avishek also co-founded, designed and taught a <a href="https://chemmathbootcamp.com">Math Bootcamp</a> for physical chemistry Ph.D. students at Berkeley.
+          </p>
+
+        <!-- REPLACE: your links -->
+        <p style="margin-top:16px; font-size:.9rem;">
+          <a href="https://scholar.google.com/citations?user=sW6eFRYAAAAJ&hl=en" target="_blank">Scholar</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/avishek-das1" target="_blank">GitHub</a>
+          &nbsp;&middot;&nbsp;
+          <a href="mailto:avishek.das@durham.ac.uk" target="_blank">Email</a>
+          &nbsp;&middot;&nbsp;
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Postdoc slot (open / filled) ──────────────────── -->
+    <div class="person-card">
+      <div class="person-photo">
+        <!-- Leave placeholder or add photo when filled -->
+         <img src="assets/img/vacant_placeholder.jpg" alt="Vacant"> 
+      </div>
+      <div class="person-info">
+        <h2>Open Position</h2>
+        <p class="person-role">Postdoctoral Researcher</p>
+        <p class="person-bio">
+          Interested in joining? Please <a href="contact.html">reach out</a> to learn about
+          current openings.
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Graduate student slot ──────────────────────────── -->
+    <div class="person-card">
+      <div class="person-photo">
+         <img src="assets/img/vacant_placeholder.jpg" alt="Vacant"> 
+      </div>
+      <div class="person-info">
+        <h2>Open Position</h2>
+        <p class="person-role">PhD Student</p>
+        <p class="person-bio">
+          Interested in joining? Please <a href="contact.html">reach out</a> to learn about
+          current openings.
+        </p>
+      </div>
+    </div>
+
+    <!--  TO ADD A REAL GROUP MEMBER, duplicate this block:
+
+    <div class="person-card">
+      <div class="person-photo">
+        <img src="assets/img/MEMBERNAME.jpg" alt="Member Name">
+      </div>
+      <div class="person-info">
+        <h2>Member Name</h2>
+        <p class="person-role">Ph.D. Student / Postdoc / etc.</p>
+        <ul class="cv-list">
+          <li>B.S., Institution, Year</li>
+        </ul>
+        <p class="person-bio">
+          [Short bio / research interests.]
+        </p>
+        <p style="margin-top:16px; font-size:.9rem;">
+          <a href="mailto:member@university.edu">member@university.edu</a>
+        </p>
+      </div>
+    </div>
+
+    -->
+
+  </div><!-- /wrap -->
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">
+        &copy; 2026 Das Research Group &middot; Department of Physics &middot; Durham University
+      </span>
+      <div class="footer-links">
+        <a href="mailto:avishek.das@durham.ac.uk">Email</a>
+        <a href="https://github.com/avishek-das1" target="_blank">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=sW6eFRYAAAAJ&hl=en" target="_blank">Scholar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

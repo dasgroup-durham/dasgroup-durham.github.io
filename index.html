@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Das Group | Durham University </title>
+  <meta name="description" content="Mechano-Chemical Information Processing">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GLLT62PN7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GLLT62PN7Q');
+</script>
+  
+<body>
+
+  <!-- ═══ NAVIGATION ════════════════════════════════════════ -->
+  <nav>
+    <div class="nav-inner">
+      <!-- REPLACE: your name or group name -->
+      <a href="index.html" class="nav-brand">Das Group</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO IMAGE ════════════════════════════════════════ -->
+  <!-- REPLACE: add your image at assets/img/hero.jpg and
+       uncomment the <img> tag below; delete the placeholder div -->
+  <div class="hero">
+     <img src="assets/img/durham.jpg" alt="Research banner"> 
+  </div>
+
+  <!-- ═══ INTRO ═════════════════════════════════════════════ -->
+  <div class="home-intro">
+
+    <div class="intro-left">
+      <!-- REPLACE: your group/name -->
+      <h1 class="intro-name">Das<br>Group</h1>
+      <!-- REPLACE: your title and affiliation -->
+      <p class="intro-title">Mechano-Chemical Information Processing in Soft Matter 
+        <span style="font-size: 3em; line-height: 0; vertical-align: -0.1em;">&middot;</span> Durham University </p>
+      <div class="intro-badges">
+        <!-- REPLACE: update hrefs and add/remove links as needed -->
+        <a href="https://github.com/avishek-das1" target="_blank">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=sW6eFRYAAAAJ&hl=en" target="_blank">Scholar</a>
+        <a href="mailto:avishek.das@durham.ac.uk">Email</a>
+      </div>
+    </div>
+
+    <div class="intro-body">
+      <!-- REPLACE: your research description (2–4 paragraphs) -->
+      <p>
+        Computation peformed by living organisms is unique - it is error prone yet low-energy and robust. 
+        How does such intelligence emerge in living matter? Often, the emergence of functional intelligence in biology
+        involves a combination of mechanical and chemical degrees of freedom covering 
+        multiple timescales. Why have such dynamics evolved? Are these mechanochemical motifs 
+        optimally designed? We use novel theoretical and computational tools to understand mechanochemical 
+        information processing in order to uncover its fundamental design principles. 
+      </p>
+    </div>
+
+  </div>
+
+  <!-- ═══ NEWS ══════════════════════════════════════════════ -->
+  <div class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title">Recent News</h2>
+      <ul class="news-list">
+
+        <!-- REPLACE: most recent item first; duplicate <li> as needed -->
+        <li class="news-item">
+          <span class="news-date">June 2026</span>
+          <span class="news-text">
+            Avishek joined Durham as an Assistant Professor in Condensed Matter Physics in June 2026. If you are interested in joining
+            our group, please <a href="contact.html">contact us</a> to learn more.
+          </span>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+  <!-- REPLACE: department, university, and links -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">
+        &copy; 2026 Das Research Group &middot; Department of Physics &middot; Durham University
+      </span>
+      <div class="footer-links">
+        <a href="mailto:avishek.das@durham.ac.uk">Email</a>
+        <a href="https://github.com/avishek-das1" target="_blank">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=sW6eFRYAAAAJ&hl=en" target="_blank">Scholar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
